@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(132, 168, 201);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: larger;
+}
+
+.nav-main {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    margin-left: 35rem;
+    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 0;
+  }

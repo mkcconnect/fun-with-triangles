@@ -1,6 +1,6 @@
-var side1 = document.querySelector(".first-side");
-var side2 = document.querySelector(".second-side");
-var side3 = document.querySelector(".third-side");
+var side1 = document.querySelector(".side-one");
+var side2 = document.querySelector(".side-two");
+var side3 = document.querySelector(".side-three");
 var button = document.querySelector(".button");
 var message = document.querySelector(".message3");
 
@@ -8,12 +8,7 @@ function get_message(side1, side2, side3) {
   var first = Number(side1);
   var second = Number(side2);
   var third = Number(side3);
-  if (side1 == "" || side2 == "" || side3 == "") {
-    return "Please fill the above input value";
-  }
-  if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
-    return "Please Enter positive value as side of Traingle";
-  }
+  
   var semi_peri = (first + second + third) / 2;
   var temp =
     semi_peri *
